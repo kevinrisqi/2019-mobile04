@@ -8,6 +8,9 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = ImplicitIntentActivity.class.getCanonicalName();
+    private static final int GALLERY_REQUEST_CODE = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
